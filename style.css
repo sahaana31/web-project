@@ -35,3 +35,10 @@ img{
 .info{
     font-size: 1.25em;
 }
+
+.three-column{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
